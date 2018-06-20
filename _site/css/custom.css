@@ -131,6 +131,11 @@ label {
     left: 20px;
 }
 
+.product-image {
+    background: url(../images/2000iw.jpg);
+    width: 25%;
+    height: 5%;
+}
 .event-banner-wrapper h2 {
     position: absolute;
 	font-family: 'Nixie One', sans-serif;
@@ -305,6 +310,9 @@ label {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 15px;
     padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .ticketBox .ticket-description p {
