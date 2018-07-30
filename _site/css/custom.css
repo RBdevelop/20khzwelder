@@ -107,53 +107,54 @@ label {
 }
 
 /* event banner css */
-.event-banner-wrapper {
+.sgc-banner-wrapper {
 	position: fixed;
-    width: 41.66666667%;
-    height: 100%;	
+    width: 35em;
+    height: 80%;	
     padding: 20px;
-	background: url(../images/2000iw.jpg);
+	background: url(../images/sgc-logo.png);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tag-line {
+
 }
 
 .logo h1 {
     font-family: 'Nixie One', sans-serif;
     position: absolute;
-    color: #ffffff;
-    font-size: 38px;
+    color: #000;
+    font-size: 3vw;
+    line-height: 3vw;
     font-weight: bolder;
     margin: 0;
     top: 20px;
     left: 20px;
 }
 
-.product-image {
-    background: url(../images/2000iw.jpg);
-    width: 25%;
-    height: 5%;
-}
-.event-banner-wrapper h2 {
+.sgc-banner-wrapper h2 {
     position: absolute;
 	font-family: 'Nixie One', sans-serif;
 	font-size: 4vw;
-    font-weight: 900;
-	line-height: 4.5vw;
-	color: #fff;
+    font-weight: bolder;
+	line-height: 4vw;
+	color: #000;
     margin: 0;
-    bottom: 30px;
+    bottom: 1%;
 }
 
-.event-banner-wrapper h2 span {
+.sgc-banner-wrapper h2 span {
     display: block;
     text-transform: uppercase;
     font-size: 1.5vw;
 }
 
-.event-banner-wrapper p {
+..sgc-banner-wrapper p {
     position: absolute;
     font-family: 'Nixie One', sans-serif;
     font-size: 16px;
@@ -163,11 +164,11 @@ label {
     bottom: 15px;
 }
 
-.event-banner-wrapper p a {
+..sgc-banner-wrapper p a {
 	color: #fff;
 }
 
-.event-banner-wrapper p a:hover {
+..sgc-banner-wrapper p a:hover {
 	border-bottom: 1px solid #fff;
 }
 
@@ -254,6 +255,10 @@ label {
     font-size: 14px;
     font-weight: 400;
 }
+.product-image {
+    height: 6em;
+    width: 4em;
+}
 
 .ticketBox .ticket-price-count-box .price {
 	margin: 0;
@@ -310,9 +315,6 @@ label {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 15px;
     padding-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .ticketBox .ticket-description p {
@@ -485,19 +487,19 @@ iframe {
 
 /* media query for tab */
 @media (max-width: 767px) {
-.event-banner-wrapper {
+..sgc-banner-wrapper {
     position: relative;
     width: 100%;
     height: 300px;
 	padding: 15px;
 }
 
-.event-banner-wrapper h2 {
+..sgc-banner-wrapper h2 {
     font-size: 38px;
     line-height: 38px;
 }
 
-.event-banner-wrapper h2 span {
+..sgc-banner-wrapper h2 span {
     font-size: 16px;
 }
 
